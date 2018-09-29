@@ -47,6 +47,7 @@ def dump(data):
         print("User:", u)
         print("Pass:", p)
         print()
+        return u,p
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:

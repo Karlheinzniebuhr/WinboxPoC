@@ -1,3 +1,12 @@
+# Modified version of the WinboxExploit
+This version works with a list of IPs. 
+```
+$ python3 WinboxExploitCustom.py --iplist ip_list.txt execute
+
+``` 
+After executing there will be a results.csv in the same directory as WinboxExploitCustom.py.
+
+
 # WinboxExploit
 Proof of Concept of Winbox Critical Vulnerability  
 Arbitrary file read
